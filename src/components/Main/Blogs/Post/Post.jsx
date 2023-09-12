@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import bookmarkIcon from "../../Bookmarks/bookmark.svg";
 
-const Post = ({ post }) => {
-  console.log(post);
-  const { author, title, thumbnail, content, readingTime, tags, date } = post;
+const Post = ({ post, bookmarkHandle, readingTimeHandler }) => {
+  const { id, author, title, thumbnail, content, readingTime, tags, date } =
+    post;
   return (
     <div className="flex flex-col gap-3 border-b-2 mb-5">
       <img src={thumbnail} alt="" className="rounded-md" />
@@ -17,7 +17,9 @@ const Post = ({ post }) => {
         </div>
         <div className="flex gap-1 items-center">
           <span>{readingTime} min read</span>
-          <img src={bookmarkIcon} alt="" className="w-4" />
+          <button onClick={() => bookmarkHandle(post)}>
+            <img src={bookmarkIcon} alt="" className="w-4" />
+          </button>
         </div>
       </div>
       <div>
@@ -34,7 +36,10 @@ const Post = ({ post }) => {
         ))}
       </div>
       <div>
-        <button className="text-[#6047EC] hover:text-[#332591] mb-3">
+        <button
+          onClick={() => readingTimeHandler(readingTime, id)}
+          className="text-[#6047EC] hover:text-[#332591] mb-3"
+        >
           Mark as read
         </button>
       </div>
@@ -44,6 +49,8 @@ const Post = ({ post }) => {
 
 Post.propTypes = {
   post: PropTypes.object.isRequired,
+  bookmarkHandle: PropTypes.func.isRequired,
+  readingTimeHandler: PropTypes.func.isRequired,
 };
 
 export default Post;
