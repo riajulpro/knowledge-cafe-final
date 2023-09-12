@@ -14,6 +14,7 @@ function App() {
   const [saveReadingTime, setReadingTime] = useState(0);
   const readingTimeHandler = (time, id) => {
     setReadingTime(saveReadingTime + time);
+    // removing from bookmarks
     const remaining = bookmark.filter((item) => item.id !== id);
     setBookmark(remaining);
   };

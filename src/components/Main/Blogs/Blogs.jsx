@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Post from "./Post/Post";
 
-const Blogs = ({ bookmarkHandle, readingTimeHandler }) => {
+const Blogs = ({ bookmarkHandle, readingTimeHandler, saveToLS }) => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
     fetch("./blogs.json")
@@ -20,6 +20,7 @@ const Blogs = ({ bookmarkHandle, readingTimeHandler }) => {
             post={post}
             bookmarkHandle={bookmarkHandle}
             readingTimeHandler={readingTimeHandler}
+            saveToLS={saveToLS}
           />
         ))}
       </div>
@@ -30,6 +31,7 @@ const Blogs = ({ bookmarkHandle, readingTimeHandler }) => {
 Blogs.propTypes = {
   bookmarkHandle: PropTypes.func.isRequired,
   readingTimeHandler: PropTypes.func.isRequired,
+  saveToLS: PropTypes.func.isRequired,
 };
 
 export default Blogs;

@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import bookmarkIcon from "../../Bookmarks/bookmark.svg";
 
-const Post = ({ post, bookmarkHandle, readingTimeHandler }) => {
+const Post = ({ post, bookmarkHandle, readingTimeHandler}) => {
   const { id, author, title, thumbnail, content, readingTime, tags, date } =
     post;
   return (
