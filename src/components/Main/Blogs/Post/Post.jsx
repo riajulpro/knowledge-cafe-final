@@ -3,19 +3,10 @@ import bookmarkIcon from "../../Bookmarks/bookmark.svg";
 
 const Post = ({ post }) => {
   console.log(post);
-  const {
-    author,
-    title,
-    thumbnail,
-    content,
-    readingTime,
-    tags,
-    date,
-    category,
-  } = post;
+  const { author, title, thumbnail, content, readingTime, tags, date } = post;
   return (
     <div className="flex flex-col gap-3 border-b-2 mb-5">
-      <img src={post.thumbnail} alt="" className="rounded-md" />
+      <img src={thumbnail} alt="" className="rounded-md" />
       <div className="flex justify-between items-center px-2">
         <div className="flex gap-3 items-center">
           <img src={author.img} alt="" className="w-10 h-10 rounded-full" />
