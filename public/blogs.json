@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "The Benefits of Daily Exercise",
+    "author": {
+      "name": "James Smith",
+      "img": "https://i.ibb.co/NTv92ht/young-bearded-man-with-striped-shirt.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/2W93BmC/medium-shot-people-running-together.jpg",
+    "date": "September 12, 2023",
+    "content": "Regular exercise has numerous benefits for both physical and mental health...",
+    "tags": ["exercise", "health", "fitness"],
+    "category": "Health",
+    "readingTime": 8
+  },
+  {
+    "id": 2,
+    "title": "10 Tips for Effective Time Management",
+    "author": {
+      "name": "Sarah Jones",
+      "img": "https://i.ibb.co/rtSqxTr/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/Dr2QPyM/clock-night-time-illustration-midnight-old-backgrounds-generative-ai.jpg",
+    "date": "September 10, 2023",
+    "content": "Time management is crucial for productivity and achieving goals. Here are 10 tips to help you manage your time effectively...",
+    "tags": ["time management", "productivity", "organization"],
+    "category": "Self-Improvement",
+    "readingTime": 7
+  },
+  {
+    "id": 3,
+    "title": "The Art of Storytelling",
+    "author": {
+      "name": "Emma Brown",
+      "img": "https://i.ibb.co/rtSqxTr/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/QKGFQLM/turn-page-collage.jpg",
+    "date": "September 8, 2023",
+    "content": "Storytelling is a powerful way to convey messages and connect with your audience...",
+    "tags": ["storytelling", "communication", "writing"],
+    "category": "Writing",
+    "readingTime": 6
+  },
+  {
+    "id": 4,
+    "title": "The Fascinating World of Marine Life",
+    "author": {
+      "name": "Marine Biologist",
+      "img": "https://i.ibb.co/NTv92ht/young-bearded-man-with-striped-shirt.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/0rnnM6X/climate-change-with-water-pollution.jpg",
+    "date": "September 6, 2023",
+    "content": "The oceans are teeming with diverse and amazing forms of life. Let's explore the fascinating world of marine creatures...",
+    "tags": ["marine life", "oceanography", "biology"],
+    "category": "Science",
+    "readingTime": 10
+  },
+  {
+    "id": 5,
+    "title": "10 Budget-Friendly Travel Destinations",
+    "author": {
+      "name": "Alexandra Wilson",
+      "img": "https://i.ibb.co/NTv92ht/young-bearded-man-with-striped-shirt.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/j4sXpJq/full-shot-travel-concept-with-landmarks.jpg",
+    "date": "September 4, 2023",
+    "content": "You don't have to break the bank to have a memorable travel experience. Here are 10 budget-friendly destinations to consider...",
+    "tags": ["travel", "budget travel", "destinations"],
+    "category": "Travel",
+    "readingTime": 9
+  },
+  {
+    "id": 6,
+    "title": "The Art of Photography: Capturing Moments in Time",
+    "author": {
+      "name": "Photography Enthusiast",
+      "img": "https://i.ibb.co/NTv92ht/young-bearded-man-with-striped-shirt.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/ZM0PCkg/camera-photographic-with-smartphone-devices-generative-ai.jpg",
+    "date": "September 2, 2023",
+    "content": "Photography is a powerful medium for capturing moments and expressing creativity. Let's delve into the art of photography...",
+    "tags": ["photography", "art", "creativity"],
+    "category": "Art",
+    "readingTime": 8
+  },
+  {
+    "id": 7,
+    "title": "10 Delicious Plant-Based Recipes",
+    "author": {
+      "name": "Vegan Chef",
+      "img": "https://i.ibb.co/NTv92ht/young-bearded-man-with-striped-shirt.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/LYpLNt6/baked-meatballs-chicken-fillet-with-garnish-with-quinoa-boiled-broccoli-proper-nutrition-sports-nutr.jpg",
+    "date": "August 31, 2023",
+    "content": "Discover a variety of mouthwatering plant-based recipes that are both nutritious and flavorful...",
+    "tags": ["plant-based", "recipes", "vegan"],
+    "category": "Food",
+    "readingTime": 7
+  },
+  {
+    "id": 8,
+    "title": "The Psychology of Motivation",
+    "author": {
+      "name": "Dr. Rebecca Martin",
+      "img": "https://i.ibb.co/rtSqxTr/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/9w18PXr/inspirational-words-collage.jpg",
+    "date": "August 29, 2023",
+    "content": "Understanding the psychology of motivation can help you achieve your goals and maintain a positive mindset...",
+    "tags": ["motivation", "psychology", "self-improvement"],
+    "category": "Psychology",
+    "readingTime": 10
+  },
+  {
+    "id": 9,
+    "title": "10 Tips for a Peaceful Mind",
+    "author": {
+      "name": "Mindfulness Coach",
+      "img": "https://i.ibb.co/rtSqxTr/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/zQ9KqHM/sad-contemplative-person-near-lake.jpg",
+    "date": "August 27, 2023",
+    "content": "Achieving a peaceful mind is essential for overall well-being. Here are 10 tips to cultivate inner peace and tranquility...",
+    "tags": ["mindfulness", "peace", "well-being"],
+    "category": "Self-Care",
+    "readingTime": 6
+  },
+  {
+    "id": 10,
+    "title": "The Wonders of Classical Architecture",
+    "author": {
+      "name": "Architectural Historian",
+      "img": "https://i.ibb.co/NTv92ht/young-bearded-man-with-striped-shirt.jpg"
+    },
+    "thumbnail": "https://i.ibb.co/0rr16YS/beautiful-view-plaza-de-espana-seville-spain.jpg",
+    "date": "August 25, 2023",
+    "content": "Classical architecture has left an indelible mark on history. Let's explore the timeless beauty and principles behind classical structures...",
+    "tags": ["architecture", "history", "design"],
+    "category": "Architecture",
+    "readingTime": 8
+  }
+]
